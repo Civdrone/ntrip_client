@@ -19,7 +19,7 @@ Build this package from source as follows:
     cd ~/your_workspace
     colcon build
     source ~/your_workspace/install/setup.bash
-    ```        
+    ```
     The source command may need to be run in each terminal prior to launching a ROS node.
 
 ## Connect to a NTRIP caster or server
@@ -74,9 +74,9 @@ ros2 launch ntrip_client ntrip_serial_device_launch.py
 ```
 
 Optional launch parameters:
-- **port**: Serial port that the device is connected on. 
+- **port**: Serial port that the device is connected on.
 - **baudrate**: Baudrate to connect to the serial port at. Default 115200
-- **rtcm_message_packege**: Changes the type of ROS RTCM message published by this node. Defaults to `mavros_msgs`, but also supports `rtcm_msgs`
+- **rtcm_message_package**: Changes the type of ROS RTCM message published by this node. Defaults to `mavros_msgs`, but also supports `rtcm_msgs`
 
 ## Topics
 
